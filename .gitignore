@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Trained model folders
+model_*/
+
+# Model checkpoints
+checkpoints/
+**/checkpoint-*/
+
+# Model weight files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Large archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
