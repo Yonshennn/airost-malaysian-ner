@@ -263,9 +263,9 @@ Key takeaways:
 |---|---|
 | `requirements.txt` | Python package dependencies |
 | `.gitignore` | Excludes `.venv/`, model weights, checkpoints, caches and archives from Git |
-| `my_train_v5.txt` / `.conll` | Final 992-sentence Malaysian training data (bracket and CoNLL/BIO formats) |
-| `my_test_clean.txt` / `.conll` | Clean evaluation set (316 sentences / 537 entities) |
-| `my_test_hard.txt` / `.conll` | Full/hard evaluation set (426 sentences / 815 entities) |
+| `my_train_v5.conll` | Final 992-sentence Malaysian training data (bracket and CoNLL/BIO formats) |
+| `my_test_clean.conll` | Clean evaluation set (316 sentences / 537 entities) |
+| `my_test_hard.conll` | Full/hard evaluation set (426 sentences / 815 entities) |
 
 ### Excluded from Git
 
